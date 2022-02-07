@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="#">
-    <h1>Payment Checkout</h1>
-  </a>
+  <h1>Payment Checkout</h1>
 </p>
 
 <p align="center">Um modelo de checkout de pagamento usando NextJS.</p>
