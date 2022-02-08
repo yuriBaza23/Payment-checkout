@@ -35,7 +35,7 @@ const Home: NextPage = () => {
     // na URL do checkout
     const myJSONString = JSON.stringify(decodedToken);
     setTimeout(() => {
-      setCustomerId(`cus_${ JSON.parse(myJSONString)?.userId }`);
+      setCustomerId(JSON.parse(myJSONString)?.customerId);
       setProductName(JSON.parse(myJSONString)?.productName);
       setProductImage(JSON.parse(myJSONString)?.productImage);
       setProductDescription(JSON.parse(myJSONString)?.productDescription);
