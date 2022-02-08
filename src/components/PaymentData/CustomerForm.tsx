@@ -164,8 +164,8 @@ function CustomerForm({ customerId, productPrice, productName, productId }: ICus
 
           <div className="rounded bg-product-view p-4 px-8">
             <h6 className="text-gray-checkout text-sm font-semibold">Cartão selecionado</h6>
-            <h1 className="text-black-checkout text-lg font-semibold mt-2 mb-0">{cards.filter(el => el.id === Number(cardId))[0].name}</h1>
-            <h2 className="text-black-checkout text-md font-regular">{cards.filter(el => el.id === Number(cardId))[0].number}</h2>
+            <h1 className="text-black-checkout text-lg font-semibold mt-2 mb-0">{cards.filter(el => el.id === Number(cardId))[0]?.name}</h1>
+            <h2 className="text-black-checkout text-md font-regular">{cards.filter(el => el.id === Number(cardId))[0]?.number}</h2>
           </div>
 
           <Stack>
